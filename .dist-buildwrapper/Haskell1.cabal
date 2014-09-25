@@ -1,0 +1,14 @@
+name:           Haskell1
+version:        0.1
+cabal-version:  >=1.2
+build-type:     Simple
+author:         kot
+
+executable Haskell1
+  hs-source-dirs:  src
+  main-is:         Main.hs
+  build-depends:   
+                   base >= 4,
+                   criterion >=1.0.1 && <1.1
+  ghc-options:     -Wall -rtsopts
+
